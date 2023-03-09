@@ -2,7 +2,8 @@
 title: 修改响应体
 lang: zh-CN
 ---
-
+^http(s?):
+x-forwarded-for
 ## 使用前必读
 
 该功能可以修改请求的响应体，但有以下要求：
